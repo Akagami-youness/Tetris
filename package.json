@@ -1,0 +1,40 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "description": "Tetris game",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode=development --open",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisbai/Tetris.git"
+  },
+  "keywords": [
+    "Game",
+    "React"
+  ],
+  "author": "Ali Sbai / Youness Ouachaou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisbai/Tetris/issues"
+  },
+  "homepage": "https://github.com/alisbai/Tetris#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}
