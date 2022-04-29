@@ -7,5 +7,5 @@
 
 3. We will be build our React components inside the components file inside of the src folder. Low level components will be imported to higher level components, which will be imported the App.js file. the index.js file import our App.js file and renders it inside of hour template.html file.
 
-
+4. Adding a feature should start by creating a new git branch before making any changes. We are not supposed to make changes directly to the Master branch.
 :)
